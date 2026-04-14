@@ -16,17 +16,6 @@ Versiones de firmware QMK para el macropad MBK6.
 
 ---
 
-## Estructura
-
-```
-firmware/
-├── builds/      # Archivos compilados (.hex, .uf2)
-├── configs/     # Configuraciones personalizadas
-└── src/         # Código fuente QMK (si aplica)
-```
-
----
-
 ## Instalación
 
 1. Descarga el archivo `.hex` o `.uf2` más reciente desde `builds/`
