@@ -1,19 +1,43 @@
-# Firmware
+# Firmware MBK6
 
-Place your QMK or ZMK firmware builds here.
+Versiones de firmware QMK para el macropad MBK6.
 
-## Structure
+---
 
-- `builds/` - Compiled firmware files (`.hex`, `.uf2`)
-- `configs/` - Custom configurations or patches
+## Última versión: v1.2
 
-## Usage
+**Compatibilidad:** VIAL y VIA
 
-1. Download or compile the firmware for your MBK6
-2. Place compiled files in `builds/`
-3. Flash via bootloader when updates are available
+### Cambios en esta versión
 
-## Notes
+- ✅ Corrección de errores reportados
+- ✅ Flujo de trabajo optimizado
+- ✅ Mejoras menores de rendimiento y estabilidad
 
-- Firmware binaries are typically flashed via bootloader
-- Keep a backup of your current working firmware
+---
+
+## Estructura
+
+```
+firmware/
+├── builds/      # Archivos compilados (.hex, .uf2)
+├── configs/     # Configuraciones personalizadas
+└── src/         # Código fuente QMK (si aplica)
+```
+
+---
+
+## Instalación
+
+1. Descarga el archivo `.hex` o `.uf2` más reciente desde `builds/`
+2. Conecta el MBK6 presionando el botón de bootloader
+3. Arrastra el archivo al dispositivo que aparecerá como unidad USB
+4. El macropad se reiniciará automáticamente con el nuevo firmware
+
+---
+
+## Notas
+
+- Mantén una copia de seguridad del firmware que funciona correctamente
+- Para personalizar, edita el código fuente y compila con QMK CLI o Docker
+- Compatible con VIAL y VIA para configuración sin recompilar
