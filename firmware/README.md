@@ -22,11 +22,3 @@ Versiones de firmware QMK para el macropad MBK6.
 2. Conecta el MBK6 presionando el botón de bootloader
 3. Arrastra el archivo al dispositivo que aparecerá como unidad USB
 4. El macropad se reiniciará automáticamente con el nuevo firmware
-
----
-
-## Notas
-
-- Mantén una copia de seguridad del firmware que funciona correctamente
-- Para personalizar, edita el código fuente y compila con QMK CLI o Docker
-- Compatible con VIAL y VIA para configuración sin recompilar
