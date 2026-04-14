@@ -25,7 +25,7 @@ La placa de circuito impreso ha sido diseñada específicamente para este modelo
 | Característica | Descripción |
 |----------------|-------------|
 | 🎮 **Programación VIAL/VIA** | Asignación de funciones completamente personalizables a través de hasta 4 capas configurables |
-| 🖥️ **Pantalla OLED 0.96"** | Muestra el número de capa activa + animación Nyan Cat |
+| 🖥️ **Pantalla OLED 0.96"** | Muestra el número de capa activa + animación CatMOD |
 | 🎛️ **Knob rotatorio** | Encoder EC11 para control preciso de volumen, zoom, scroll y más |
 | 🎨 **Dos combinaciones** | Blanco con acentos negros / Negro con acentos blancos |
 
@@ -52,9 +52,9 @@ La placa de circuito impreso ha sido diseñada específicamente para este modelo
 
 ```
 MBK6/
-├── firmware/     # Firmware QMK y archivos de compilación
-├── VIA/          # Archivo JSON para configuración en VIAL/VIA
-└── media/        # Fotos y videos del proyecto
+├── firmware/     # Versiones firmware QMK
+├── VIA/          # Archivo JSON para configuración en VIA
+└── media/        # Fotos y videos del macropad
 ```
 
 ## Enlaces rápidos
